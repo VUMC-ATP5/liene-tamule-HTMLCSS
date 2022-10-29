@@ -1,2 +1,2 @@
 # šis ir mans pirmais GIT repozitorijs
-Šis tiks papildināts vēlāk
+## Šī ir versija trīs, kas atrodas trešajā zarā
