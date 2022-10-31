@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liene Tamule Mājas Lapa</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <button id="poga1">NOSPIED POGU</button>
+
+    <!--H1 ir virssraksts.Jāliek gan atveršosais , gan aizverošais-->
+
+    <h2>Heading2</h2>
+    <h3>Heading3</h3>
+    <h4>Heading4</h4>
+    <h5>Heading5</h5>
+    <h6>Heading6</h6>
+
+
+
+    <br>
+    <br>
+
+    <img src="https://ib.lpb.lv/gw/img/logo.png" width="20%" alt="LPB Bank logo">
+    <br>
+    <br>
+    <img class="dzivnieks"
+        src="C:\Users\zoopa\Desktop\LU_APT5\liene-tamule-HTMLCSS\img\cdb406d4792bf75f3e7a2f2804a1083c.jpg" width="25%"
+        alt="zirga foto">
+    <br>
+<!-- Absolūtais ceļš absolute path -->
+<img class="dzivnieks"
+src="C:\Users\zoopa\Desktop\LU_APT5\liene-tamule-HTMLCSS\img\cdb406d4792bf75f3e7a2f2804a1083c.jp"
+alt="zirga foto">
+<br>
+
+    <!--Nesakartots saraksts-->
+    <h3>Ierirkumu saraksts</h3>
+    <ul>
+        <li>Maize</li>
+        <li class="redText">Piens</li>
+        <li>tomāti</li>
+    </ul>
+
+    <!--Sakārtots saraksts-->
+    <h3>Kalendārie mēneši</h3>
+    <ol>
+        <li>Janvāris</li>
+        <li class="redText">Februāris</li>
+        <li>Marts</li>
+
+    </ol>
+
+    <button id="specialButton">Spied mani!</button>
+    <button id="specialButton1">Spied mani!</button>
+
+
+    <div class="full">
+        <div class="left"></div>
+        <h1>Šī ir mana pirmā mājas lapa, Heading 1</h1>
+
+        <p class="pirmaisParagrafs">šis ir teksts.šis ir teksts.šis ir teksts.šis ir teksts.šis ir teksts.šis ir
+            teksts.šis
+            ir teksts.šis ir teksts.šis ir teksts.šis ir teksts.šis ir teksts.<br><br><br>šis ir teksts.šis ir
+            teksts.šis ir
+            teksts.šis ir teksts.</p>
+
+        <h1>Heading1</h1>
+
+        <div>
+            <div class="right"></div>
+            <p>Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd <a
+                    href="https://en.wikipedia.org/wiki/Sun/" target="_blank">SAULE</a>.Ārā spīd saule.Ārā spīd
+                saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.<strong>Ārā spīd saule.</strong>Ārā spīd saule.Ārā
+                spīd saule.Ārā spīd saule.</p>
+
+            <a href="https://edu.lu.lv/" target="_blank">LINKS UZ edu.lu.lv</a>
+            <br>
+            <a href="https://www.linkedin.com" target="_blank">LINKEDIN profils</a>
+
+            <div>
+                <div class="right2"></div>
+
+                <!-- relativais ceļš relatīvais path-->
+                <img class="dzivnieks" src="img\BlackCat.jpg" width=20% alt="">
+                <br>
+                <!-- relativais ceļš relatīvais path-->
+                <img class="dzivnieks" src="img\CuteBlackKitte.jpg" width="20%">
+
+                <br>
+                <a href="mailto:test@test.com">epasts</a>
+
+            </div>
+
+</body>
+
+
+
+<script>
+    document.getElementById("poga1").onclick =
+        function () {
+
+            console.log("Hello world JURIS");
+            window.alert('Hellou Juris');
+            document.getElementById("heading2").innerHTML = "MAINĪTS NOSAUKUMS";
+            document.getElementById("poga2").onclick =
+                function () {
+                    window.scrollTo(0, 10000);
+                }
+            document.getElementById("poga2").onclick =
+                function () {
+                    window.scrollTo(0, 10000);
+                }
+
+            document.getElementById("poga3").onclick =
+                function () {
+                    window.scrollTo(0, 0);
+                }
+
+        }
+</script>
+
+
+</html>
